@@ -1,0 +1,25 @@
+.packages {
+    padding: 70px 0;
+    background: #fff;
+}
+
+.package {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .packages {
+        padding: 50px 0;
+    }
+    .package {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .package {
+        grid-template-columns: 1fr;
+    }
+}

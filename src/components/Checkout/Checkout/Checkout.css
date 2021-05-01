@@ -1,0 +1,59 @@
+.checkout {
+    background: #F4F6FE;
+    padding: 50px 0;
+}
+
+.checkout__content,
+.checkout__package {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.checkout__package {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.checkout__package h2 {
+    color: #c69963;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.checkout__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.checkout__table thead {
+    background: #F4F6FE;
+}
+
+.checkout__table tbody {
+    background: #f4f6fe6c;
+}
+
+.checkout__table th,
+.checkout__table td {
+    border: 1px solid #f2f2f2;
+    padding: 12px;
+    text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+    .checkout {
+        padding: 30px 0;
+    }
+    .checkout__content,
+    .checkout__package {
+        padding: 12px;
+    }
+    .checkout__table th,
+    .checkout__table td {
+        font-size: 15px;
+    }
+}
